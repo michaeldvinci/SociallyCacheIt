@@ -1,12 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Social Cache",
+  "name": "Socially Cache It",
   "version": "0.1",
   "description": "Automatically loads the Google Cache of a social.technet page in text-only view",
 
   "background": {
   	 "default_icon": "icon.png",
      "scripts": ["reroute.js"]
+  },
+  
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" 
   },
 
   "permissions": [

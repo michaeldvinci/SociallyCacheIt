@@ -5,13 +5,6 @@
 //	Michael D. Vinci
 //
 //
-//	http://webcache.googleusercontent.com/search?q=cache:
-//
-// 	https://social.technet.microsoft.com*
-// 
-//	&num=1&hl=en&gl=us&strip=1&vwsrc=0
-//
-//
 
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
