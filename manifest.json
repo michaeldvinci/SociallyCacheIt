@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Social Cache",
+  "version": "0.1",
+  "description": "Automatically loads the Google Cache of a social.technet page in text-only view",
+
+  "background": {
+  	 "default_icon": "icon.png",
+     "scripts": ["reroute.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "webRequest",
+    "*://*.microsoft.com/*",
+    "webRequestBlocking"
+  ]
+
+}
